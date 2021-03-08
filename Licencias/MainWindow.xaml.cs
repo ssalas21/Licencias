@@ -264,10 +264,8 @@ namespace Licencias
             xlWorkBook2.Close(true, null, null);
             xlApp2.Quit();
 
-
             Marshal.ReleaseComObject(xlWorkBook2);
             Marshal.ReleaseComObject(xlApp2);
-
 
             //Cerrar archivo
             file.Close();
